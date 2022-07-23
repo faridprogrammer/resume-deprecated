@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Farid}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Bekran}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Senior software engineer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{9}{Tehran, Iran}\\
+	\icon{Phone}{9}{+98 914 241 1147}\\
+	\icon{At}{9}{\href{mailto:faridbekran15@gmail.com}{faridbekran15@gmail.com}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Linkedin}{9}{\href{https://www.linkedin.com/in/faridbekran/}{linkedin.com/in/faridbekran/}}\\
+	\icon{Github}{9}{\href{https://github.com/faridprogrammer}{github.com/faridprogrammer}}\\
+	\icon{Twitter}{9}{\href{https://twitter.com/faridprogrammer}{@faridprogrammer}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+Experienced Senior Software Engineer with a established history of working in the information technology and financial data processing industry. Skilled in C\#, Scrum, Web Applications, Object-Oriented Programming (OOP), Performance testing, Unit testing and SOLID principles. Have strong knowledge of financial and stock exchange software. Maybe I am among a few software engineers who love working in teams and act as a catalyst between business people and technical people. I also love working with legacy code to gain experience regarding refactoring and clean code transitions. Having work done by a great team has been one of my goals in any company I have worked with.
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{C\#}{80}
+		\baritem{ASP.NET Core}{80}
+		\baritem{Entity Framework Core}{80}
+		\baritem{Javascript}{50}
+		\baritem{SQL Server}{70}
+		\baritem{SOLID}{80}
+		\baritem{Software architecture}{60}
+		\baritem{MERN Stack}{40}
+		\baritem{Jira}{80}
+		\baritem{Git}{80}
+	\end{barchart}
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{9/2020 -- present\\\footnotesize{Full-Time}}
+		{Technical Team Lead}
+		{Mabna DP (Iran)}
+		{I have worked in the OMS software team as a backend developer. In that period I've managed to implement complex treasury logic for continuously in-use OMS software and replace it with the previous troublesome module. I have developed an in-house broker back-office module for the OMS software that lets the OMS work independently from existing back-office software in the market. I am currently in charge of another project in the company that focuses on portfolio management features. This software needs to be changed to make it available for much bigger customers, which is one of my goals in the new team. Making the team more efficient, reliable, and happy is another goal of mine in the new team. I believe I've had good progress in both goals because of my technical and interpersonal skills. \\ \texttt{C\#}\slashsep\texttt{ASP.NET Core}\slashsep\texttt{SQL Server}\slashsep\texttt{Redis}\slashsep\texttt{RabbitMQ}\slashsep\texttt{Kanban}}
+	\entry
+		{2016 -- 2020\\\footnotesize{Full-Time}}
+		{Senior Software Engineer}
+		{Fanap Plus (Iran)}
+		{In charge of some web softwares and a data integration project called DataLake implementing some patterns of industry
+established DataLake definition. This tool is developed by Microsoft technologies
+and the main storage engine is Microsoft Sql Server and there are some Feeder (I have coined the term) which are responsible for data ingestion.\\ \texttt{C\#}\slashsep\texttt{ASP.NET Core}\slashsep\texttt{SQL Server}\slashsep\texttt{MongoDb}\slashsep\texttt{Kafka}\slashsep\texttt{Redis}\slashsep\texttt{Scrum}}
+	\entry
+		{2018 -- 2019\\\footnotesize{part time}}
+		{Technical Consultant}
+		{elwin.ir (Iran)}
+		{In the company’s main product the
+Online customer satisfaction measurement I have helped the team both technically and non-technically to deliver high quality software which is
+responsible for
+serving backend for physical kiosks and a comprehensive solution of reporting based on their specific
+requirements.\\ \texttt{C\#}\slashsep\texttt{ASP.NET Core}\slashsep\texttt{SQL Server}}
+	\entry
+		{2016 -- 2018\\\footnotesize{full time}}
+		{Senior software developer}
+		{Afranet (Iran)}
+		{I have played a key role on delivery of BSS/OSS software in Afranet
+which the company was developing in-house. One of my main achievements during
+that project was a successful effort of a balancing business owners needs and the
+development team through collaborating with business analysts and development
+team. I personally was in charge of development of invoicing module of that
+software system. \\ \texttt{C\#}\slashsep\texttt{ASP.NET}\slashsep\texttt{SQL Server}\slashsep\texttt{AngularJs}}
+\entry
+		{2014 -- 2016\\\footnotesize{full time}}
+		{Software developer}
+		{Nomatec (Iran)}
+		{\\ \texttt{C\#}\slashsep\texttt{ASP.NET}\slashsep\texttt{SQL Server}\slashsep\texttt{AngularJs}}
+	\entry
+		{2012 -- 2014\\\footnotesize{full time}}
+		{Software developer}
+		{System Group (Iran)}
+		{\\ \texttt{C\#}\slashsep\texttt{ASP.NET}\slashsep\texttt{SQL Server}\slashsep\texttt{SSAS}\slashsep\texttt{MDX}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2007 -- 2010}
+		{Bachelor's Degree}
+		{University of Tabriz Iran}
+		{Computer Science}
+\end{entrylist}
+
+\cvsect{Hobbies}
+\begin{entrylist}
+		\entry
+		{$\infty$}
+		{Creating Podcast}
+		{\href{https://pod.link/1596644229}{pod.link/1596644229}}
+		{I am in charge of podcast's technical aspects like recording and distributing episodes. The podcast I have working on with my wife is about narrating stories for children in Persian language.}
+		\entry
+		{$\infty$}
+		{Amateur Photography}
+		{\href{https://unsplash.com/@faridbekran}{unsplash.com/@faridbekran}}
+		{Mostly landscape photography. I am also very fund of black and white photography.}
+		\entry
+		{$\infty$}
+		{Writing Short Stories}
+		{ }
+		{Mostly in persian.}
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{English} - Working proficiency\\
+	\textbf{Turkish} - proficient\\
+	\textbf{Azerbaijani} - native\\	
+	\textbf{Persian} - native
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
