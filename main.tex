@@ -20,8 +20,9 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
 
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\geometry{margin=10pt}
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -35,13 +36,11 @@
 	
 	% If your name is very short, use just one of the lines below
 	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Farid}}}}} % First name
-	
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Bekran}}}}} % Last name
+	\colorbox{black}{{\Huge\textcolor{white}{\textbf{\MakeUppercase{Farid Bekran}}}}} % First name
 	
 	\vspace{6pt}
 	
-	{\huge Senior software engineer} % Career or current job title
+	{\large Software engineer} % Career or current job title
 \end{minipage}
 \begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
@@ -62,35 +61,34 @@
 	\icon{Twitter}{9}{\href{https://twitter.com/faridprogrammer}{@faridprogrammer}}\\
 \end{minipage}
 
-\vspace{0.5cm}
+\vspace{0.0cm}
 
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION, SKILLS AND TECHNOLOGIES
 %----------------------------------------------------------------------------------------
 
+
+\cvsect{Technical Skills}
+
+\begin{minipage}[t]{1\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+\texttt{C\#} | \texttt{.NET 6.0} | \texttt{ASP.NET Core} | \texttt{ٍEF Core} | \texttt{TypeScript} | \texttt{SQL Server} | \texttt{Redis} | \texttt{RabbitMQ} | \texttt{Angular} | \texttt{Scrum} | \texttt{Kanban} | \texttt{OOP} | \texttt{SOLID} | \texttt{Unit testing}
+\end{minipage}
+
+\cvsect{Soft Skills}
+
+\begin{minipage}[t]{1\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+\texttt{Patience} | \texttt{Adaptability} | \texttt{Critical thinking} | \texttt{Accountability} | \texttt{Time and project management}
+\end{minipage}
+
+
 \cvsect{Who Am I?}
 
-\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+\begin{minipage}[t]{1\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-Experienced Senior Software Engineer with a established history of working in the information technology and financial data processing industry. Skilled in C\#, Scrum, Web Applications, Object-Oriented Programming (OOP), Performance testing, Unit testing and SOLID principles. Have strong knowledge of financial and stock exchange software. Maybe I am among a few software engineers who love working in teams and act as a catalyst between business people and technical people. I also love working with legacy code to gain experience regarding refactoring and clean code transitions. Having work done by a great team has been one of my goals in any company I have worked with.
-\end{minipage}
-\hfill % Whitespace between
-\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\begin{barchart}{5.5}
-		\baritem{C\#}{80}
-		\baritem{ASP.NET Core}{80}
-		\baritem{.NET Core}{80}
-		\baritem{Javascript}{50}
-		\baritem{SQL Server}{70}
-		\baritem{SOLID}{80}
-		\baritem{Software architecture}{60}
-		\baritem{Docker}{40}
-		\baritem{MERN Stack}{40}
-		\baritem{Scrum}{80}
-		\baritem{Git}{80}
-	\end{barchart}
+Experienced Senior Software Engineer with a established history of working in the software development and financial data processing industry. Skilled in C\#, Scrum, Web Applications, Object-Oriented Programming (OOP), Performance testing, Unit testing and SOLID principles. Have strong knowledge of financial and stock exchange software. Maybe I am among a few software engineers who love working in teams and act as a catalyst between business people and technical people. I also love working with legacy code to gain experience regarding refactoring and clean code transitions. Having work done by a great team has been one of my goals in any company I have worked with.
 \end{minipage}
 
 
@@ -105,14 +103,14 @@ Experienced Senior Software Engineer with a established history of working in th
 		{9/2020 -- present\\\footnotesize{Full-Time}}
 		{Technical Team Lead}
 		{Mabna DP (Iran)}
-		{I have worked in the OMS software team as a backend developer. In that period I've managed to implement complex treasury logic for continuously in-use OMS software and replace it with the previous troublesome module. I have developed an in-house broker back-office module for the OMS software that lets the OMS work independently from existing back-office software in the market. I am currently in charge of another project in the company that focuses on portfolio management features. This software needs to be changed to make it available for much bigger customers, which is one of my goals in the new team. Making the team more efficient, reliable, and happy is another goal of mine in the new team. I believe I've had good progress in both goals because of my technical and interpersonal skills. \\ \texttt{C\#}\slashsep\texttt{ASP.NET Core}\slashsep\texttt{SQL Server}\slashsep\texttt{Redis}\slashsep\texttt{RabbitMQ}\slashsep\texttt{Kanban}}
+		{I have worked in the OMS software team as a backend developer. In that period I've managed to implement complex treasury logic for continuously in-use OMS software and replace it with the previous troublesome module. I have developed an in-house broker back-office module for the OMS software that lets the OMS work independently from existing back-office software in the market. I am currently in charge of another project in the company that focuses on portfolio management features. This software needs to be changed to make it available for much bigger customers, which is one of my goals in the new team. Making the team more efficient, reliable, and happy is another goal of mine in the new team. I believe I've had good progress in both goals because of my technical and interpersonal skills.}
 	\entry
 		{2016 -- 2020\\\footnotesize{Full-Time}}
 		{Senior Software Engineer}
 		{Fanap Plus (Iran)}
 		{In charge of some web softwares and a data integration project called DataLake implementing some patterns of industry
 established DataLake definition. This tool is developed by Microsoft technologies
-and the main storage engine is Microsoft Sql Server and there are some Feeder (I have coined the term) which are responsible for data ingestion.\\ \texttt{C\#}\slashsep\texttt{ASP.NET Core}\slashsep\texttt{SQL Server}\slashsep\texttt{MongoDb}\slashsep\texttt{Kafka}\slashsep\texttt{Redis}\slashsep\texttt{Scrum}}
+and the main storage engine is Microsoft Sql Server and there are some Feeder (I have coined the term) which are responsible for data ingestion.}
 	\entry
 		{2018 -- 2019\\\footnotesize{part time}}
 		{Technical Consultant}
@@ -121,7 +119,7 @@ and the main storage engine is Microsoft Sql Server and there are some Feeder (I
 Online customer satisfaction measurement I have helped the team both technically and non-technically to deliver high quality software which is
 responsible for
 serving backend for physical kiosks and a comprehensive solution of reporting based on their specific
-requirements.\\ \texttt{C\#}\slashsep\texttt{ASP.NET Core}\slashsep\texttt{SQL Server}}
+requirements.}
 	\entry
 		{2016 -- 2018\\\footnotesize{full time}}
 		{Senior software developer}
@@ -131,17 +129,17 @@ which the company was developing in-house. One of my main achievements during
 that project was a successful effort of a balancing business owners needs and the
 development team through collaborating with business analysts and development
 team. I personally was in charge of development of invoicing module of that
-software system. \\ \texttt{C\#}\slashsep\texttt{ASP.NET}\slashsep\texttt{SQL Server}\slashsep\texttt{AngularJs}}
+software system.}
 \entry
 		{2014 -- 2016\\\footnotesize{full time}}
 		{Software developer}
 		{Nomatec (Iran)}
-		{\\ \texttt{C\#}\slashsep\texttt{ASP.NET}\slashsep\texttt{SQL Server}\slashsep\texttt{AngularJs}}
+		{}
 	\entry
 		{2012 -- 2014\\\footnotesize{full time}}
 		{Software developer}
 		{System Group (Iran)}
-		{\\ \texttt{C\#}\slashsep\texttt{ASP.NET}\slashsep\texttt{SQL Server}\slashsep\texttt{SSAS}\slashsep\texttt{MDX}}
+		{}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
@@ -164,13 +162,12 @@ software system. \\ \texttt{C\#}\slashsep\texttt{ASP.NET}\slashsep\texttt{SQL Se
 		{$\infty$}
 		{Creating Podcast}
 		{\href{https://pod.link/1596644229}{pod.link/1596644229}}
-		{I am in charge of podcast's technical aspects like recording and distributing episodes. The podcast I have working on with my wife is about narrating stories for children in Persian language.}
+		{I am in charge of podcast's technical aspects like recording and distributing episodes.}
 		\entry
 		{$\infty$}
 		{Amateur Photography}
 		{\href{https://unsplash.com/@faridbekran}{unsplash.com/@faridbekran}}
-		{Mostly landscape photography. I am also very fund of black and white photography.}
-
+		{}
 \end{entrylist}
 %----------------------------------------------------------------------------------------
 %	ADDITIONAL INFORMATION
@@ -183,11 +180,8 @@ software system. \\ \texttt{C\#}\slashsep\texttt{ASP.NET}\slashsep\texttt{SQL Se
 	
 	\textbf{English} - Working proficiency\\
 	\textbf{Turkish} - proficient\\
-	\textbf{Azerbaijani} - native\\	
-	\textbf{Persian} - native
-
+	\textbf{Persian, Azerbaijani} - native\\	
 \end{minipage}
-
 
 %----------------------------------------------------------------------------------------
 
